@@ -1,0 +1,123 @@
+
+header{
+  font-family:"Courier New", Courier, monospace;
+}
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h5{
+  text-align: center;
+}
+
+
+h3{
+  text-align: left;
+  margin-left:7%;
+  text-decoration: underline;
+}
+nav a {   /*links within "nav" container*/
+  padding:15px;
+  padding-bottom:4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {/*psuedo class*/
+  border-bottom: 2px #60C0FF solid;
+  font-size: 2em;
+  transition: .9s; /*transition effect */
+}
+
+header, nav , main, footer{
+    text-align: center;
+}
+
+.footer-image-home{
+  margin-top: -70px;
+  text-align:center;
+}
+
+.footerImageC{
+   margin-top: 20px;
+   text-align: center;
+}
+
+.thickhrHome {
+    background-color: #317DFD;
+    color: #C8EDF9;
+    border: solid 1px #C8EDF9;
+    height: 4px;
+    width: 100%;
+}
+
+.thickhrCplus {
+    background-color: #9A0000;
+    color: #C8EDF9;
+    border: solid 1px #C8EDF9;
+    height: 4px;
+    width: 100%;
+}
+
+.thickhrJava {
+    background-color: #3CA126;
+    color: #C8EDF9;
+    border: solid 1px #C8EDF9;
+    height: 4px;
+    width: 100%;
+}
+
+.thickhrPython {
+    background-color: #FFF249;
+    color: #C8EDF9;
+    border: solid 1px #C8EDF9;
+    height: 4px;
+    width: 100%;
+}
+
+#languageDescription{
+  margin-top: -20px;
+  text-align: left;
+  margin-left: 70px;
+}
+
+td {
+  padding-right: 10px;
+  font-size:1.3em;
+}
+
+table {
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+td strong {
+  color:white;
+}
+
+#content{
+  padding-bottom: 30px;
+}
+
+#table-header {
+  background-color: #005AD4;
+  font-weight:bold;
+}
+
+.table-row {
+  background-color: #FFF035;
+  color: black;
+}
+
+#resources{
+  float:left;
+  text-align:left;
+  margin-left:90px;
+  font-size:20px;
+  margin-bottom:20px;
+}
+

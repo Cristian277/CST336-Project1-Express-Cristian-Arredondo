@@ -1,0 +1,126 @@
+<%- include('partials/header.ejs') %>
+
+    <body style="background-color: #020812; color:white">
+        
+        <header> 
+        
+        <h1> Progamming Languages </h1> 
+        
+        </header>
+        
+        <hr class="thickhrJava">
+        
+        <nav>
+            <a href="/">Home</a>
+            <a href="/c-plus">C++</a>
+            <a href="/java"><strong><span style="color:#3CA126">Java</strong></a>
+            <a href="/python">Python</a>
+        </nav>
+        
+        <br><br>
+        
+        <main>
+            
+            <h3>Basic Overview</h3>
+            
+            <br>
+            
+            <div id="languageDescription">
+                
+                <ul>
+                    
+                <li>Java code compiles through both a compiler and virtual machine 
+                and contains a lot of the same syntax that is in C++.
+                </li>
+                <li>Java was first introduced in to the public in 1995, making it
+                a relatively new programming language.
+                </li>
+                <li>Java is largely used for <acronym title="Android Software Development Kit">Android SDK</acronym> and is the
+                official language for Android. Java is also being utilized in IDEs 
+                such as Android Studio to create applications.
+                </li>
+                    
+                </ul>
+                
+                <br>
+                
+            </div>
+            
+            <h3>Introduction</h3>
+            
+            <br>
+            
+            <div id="languageDescription">
+                
+                <ul>
+                    <li>Similarly to C++ we can start learning the Java Programming Language 
+                    by starting with "Hello World" to get familiar with the syntax. Some noteable 
+                    differences are that when we want to output to the console we do not say 
+                    "cout<<"Hello wold", we use System.out.println("Hello World"); instead.
+                    </li>
+                    
+                    <br><br>
+                    
+                    Here is an example of the code: 
+                    
+                    <br><br>
+                    
+                     <img src="/img/Screen Shot 2020-02-08 at 8.56.15 PM.png"></img>
+                     
+                     <br><br>
+                     
+                     <img src="/img/hello.png"></img>
+                     
+                     <br><br>
+                     
+                
+                </ul>
+                
+            </div>
+            
+            <h3>Functionalities</h3>
+            
+            <br>
+            
+            <div id="languageDescription">
+                
+            Alot of the datatypes in Java are the same as C++ but some containers and objects are different:
+            
+            <ul>
+                
+                <li>StringBuilder: useful for making strings mutable since String is not changeable.</li>
+                <li>ArrayList: can be used to store data and is similar to a vector in C++.</li>
+                <li>Integer: can be used the same way as int, but is instead an object.</li>
+                <li>Scanner: used to store user input.</li>
+                
+            </ul>
+            
+            <br>
+                
+            </div>
+            
+            <h3>Resources</h3>
+            
+            <div id="resources">
+            
+            <a href="https://howtodoinjava.com/java/basics/what-is-java-programming-language/">Java Information</a>
+            <br>
+            <a href="https://theiconic.tech/android-java-fdbd55aadc51">Java and Android</a>
+            </div>
+        
+        </main>
+        
+        <hr class="thickhrJava">
+        
+        <%- include('partials/footer.ejs')%>
+            
+            <div class="footerImageC">
+                
+                <img src="/img/java-logo.png" alt="Java Logo"/> <!-- could replace image here too-->
+                
+            </div>
+            
+        
+    </body>
+
+</html>
